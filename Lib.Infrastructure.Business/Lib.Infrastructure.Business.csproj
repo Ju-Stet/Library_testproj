@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Lib.Domain.Core\Lib.Domain.Core.csproj" />
+    <ProjectReference Include="..\Lib.Domain.Interfaces\Lib.Domain.Interfaces.csproj" />
+    <ProjectReference Include="..\Lib.Services.Interfaces\Lib.Services.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
